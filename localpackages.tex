@@ -44,7 +44,7 @@
 \usepackage{ps-trees}
 
 %% glosses per chapter (using bib2gls)
-\usepackage[record,postdot,section]{glossaries-extra}
+\usepackage[record,nopostdot,section]{glossaries-extra}
 \usepackage{glossary-inline}
 \usepackage{glossary-mcols}
 
@@ -84,6 +84,9 @@
 }
 \makeatother
 
+\setglossarypreamble{\vspace*{-\baselineskip}} % remove empty line
+\glssetwidest{\hspace{1.3cm}} % set width
+\renewcommand*{\glsnamefont}[1]{\normalfont{#1}} % remove boldface
 \setglossarystyle{langsci}
 
 % Use pubstate
