@@ -69,23 +69,18 @@
 \glstocfalse % don't add to TOC
 
 \makeatletter
-\newglossarystyle{langsci}
-{%
-\setglossarystyle{mcoltreenoname}% base this style on the list style
-%     \renewcommand*{\glsinlineseparator}{,\space}%
-%     \renewcommand*{\glossentry}[2]{%
-%         \gls@inlinesep
-%         \glsentryitem{##1}%
-%         \glsinlinenameformat{##1}{%
-%           \textbf{\glossentryname{##1}}% = \glossentrydesc{##1}%
-%         }%
-%         {%
-%             \ifglshasdesc{##1}%
-%             { =\glsinlinedescformat{\glossentrydesc{##1}}{\glossentrysymbol{##1}}{##2}}%
-%             {\glsinlineemptydescformat{\glossentrysymbol{##1}}{##2}}%
-%         }%
-%         \def\gls@inlinesep{\glsinlineseparator}%
-%     }%
+\newglossarystyle{langsci}{%
+    \setglossarystyle{mcolalttree} % mcolalttree introduces empty first line
+    % remove empty line
+    % from https://tex.stackexchange.com/questions/385883/delete-empty-line-in-glossaries
+    \renewenvironment{theglossary}%
+    {%
+        \begin{multicols}{2}%
+            \raggedright
+            \def\@gls@prevlevel{-1}%
+%           \mbox{}\par
+        }%
+        {\par\end{multicols}}%
 }
 \makeatother
 
@@ -119,9 +114,6 @@
 % % \usepackage{paralist}
 \usepackage{multirow}
 \usepackage{pifont}
-
-%% Music! (Hedde)
-%\usepackage{musixtex}
 
 \usepackage{soul}
 \DeclareRobustCommand{\greybox}[1]{{\sethlcolor{lightgray}\hl{#1}}}
