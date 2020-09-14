@@ -29,6 +29,13 @@
 \setmainlanguage[variant=british]{english}
 \setotherlanguage{italian}
 
+\makeatletter
+\let\pgfmathModX=\pgfmathMod@
+\usepackage{pgfplots,pgfplotstable}%
+\let\pgfmathMod@=\pgfmathModX
+\makeatother
+\usepgfplotslibrary{colorbrewer}
+
 \usepackage{microtype}
 \usepackage{cleveref}
 %\crefname{section}{§}{§§}

@@ -129,7 +129,7 @@ have identical antecedents.  This analysis is based on the fact that
 \gls{BP}\il{Brazilian Portuguese} lost third person\is{person features}
 clitics; in other words, these anaphoric elements were replaced by
 \isi{ellipsis} due to a diachronic process relating the increase of certain
-kinds of \isi{ellipsis} (see below) and the loss of third person\is{person
+kinds of \isi{ellipsis} (see below) to the loss of third person\is{person
 features} (inanimate) \isi{clitics}.
 
  European Portuguese, a language to which \gls{BP}\il{Brazilian Portuguese} is diachronically related, has
@@ -162,10 +162,39 @@ constructions. She found there is an increase for the \isi{ellipsis} option, and
 decrease in the use of the neuter clitic, as seen in \Cref{fig:key:27.1}.
 
 \begin{figure}[htpb]
-    \centering
-    \includegraphics[width=.75\linewidth]{./img/fig27-1.pdf}
+%    \centering
+%    \includegraphics[width=.75\linewidth]{./img/fig27-1.pdf}
+    \pgfplotstableread{data/cyrino.csv}{\table}
+    \pgfplotstablegetcolsof{\table}
+    \pgfmathtruncatemacro\numberofcols{\pgfplotsretval-1}
+    \begin{tikzpicture}
+        \begin{axis}[
+                    colormap/RdYlBu,
+                    cycle list name = langsci,
+                    height = .45\textheight,
+                    legend cell align=left,
+                    legend columns=3,
+                    legend style={font=\footnotesize,anchor=north,at={(0.5,1.2)},anchor=north},
+                    line width=.75pt,
+                    sharp plot,
+                    width  = \textwidth,
+                    xmin = 1500, xmax = 2000,
+                    xtick = data,
+                    x tick label style={/pgf/number format/1000 sep=},
+                    xlabel = {Date},
+                    ymin = 0, ymax = 100,
+                    ytick distance = 10,
+                    ylabel = {\%},
+                    ]
+        \foreach \i in {1,...,\numberofcols} {%
+                \addplot+ table [x index={1},y index={\i},x expr=\thisrow{Date}] {\table};
+                \pgfplotstablegetcolumnnamebyindex{\i}\of{\table}\to{\colname} % Adding column headers to legend
+            \addlegendentryexpanded{\colname}
+        }
+        \end{axis}
+    \end{tikzpicture}
     \caption{Diachronic change for DP \isi{ellipsis} (null objects) and propositional
-    \isi{ellipsis} (adapted from~\citealt{Cyrino1994,Cyrino1997})}
+    \isi{ellipsis} (adapted from~\citealt{Cyrino1994,Cyrino1997})}%
     \label{fig:key:27.1}
 \end{figure}
 
@@ -613,7 +642,7 @@ Person-less) and non-specific do not move out of \emph{v}P, since they are
 as in \citealt{Rodriguez-Mondonedo2007}).
 
 \citet[140]{Richards2008} proposes that Person is an exclusive (syntactic)
-property of (definite) and animate nominals: a person\is{person features}
+property of animate (and definite) nominals: a person\is{person features}
 specification on indefinites and inanimates is redundant, since these DPs will
 always be third person\is{person features}, and thus would plausibly be left
 unspecified, as seen in~\tabref{tab:key:27.27.1}.
@@ -648,7 +677,7 @@ to their lacking a DP structure -- that is, they are bare NPs''
 
 Therefore, \isi{animacy} in syntax is the result of [$\pm$Person] feature
 checking.\footnote{In Richard's system, as can be seen in \tabref{tab:key:27.27.1},
-definites also have a Person feature. Although definiteness, specificity has
+definites also have a Person feature. Although definiteness/specificity has
 been related to \isi{null objects} in \gls{BP}\il{Brazilian Portuguese} and DOM\is{differential object marking} in \ili{Spanish}, the role of Person in
 the construction of definiteness will not be examined in detail in this paper.
 See below the discussion on this issue.} Richards examines \enquote{prominence
@@ -684,8 +713,8 @@ features as Number, Gender.\footnote{Number is actually encoded in D in
     [$+$person].  I think the problem with that is that there would be a
     redundancy for first and second person\is{person features}, since
     participants are necessarily [$+$person]. In my system it is clearer that
-    the third person\is{person features} is the \enquote{non-person}, as son
-many times it has been suggested in the linguistic literature.}
+    the third person\is{person features} is the \enquote{non-person}, as
+has been suggested in the linguistic literature many times.}
 
 \begin{table}
 \begin{tabularx}{\textwidth}{XX}
