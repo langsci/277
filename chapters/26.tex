@@ -130,9 +130,9 @@ appropriate discursive conditions; and finally, partial null subject languages,
 including \ili{Finnish}, \ili{Hebrew}, \ili{Icelandic}, \ili{Russian},
 \ili{Marathi} (a variety spoken in western India) and \ili{Brazilian
 Portuguese}.  According to the authors, they constitute a more difficult type
-to define because the languages under this label may show a range of
-characteristics too diverse. \gls{BP}\il{Brazilian Portuguese}, on the
-contrary, instead of creating a lexical expletive\is{expletives} like \ili{French}, shows a
+to define because the languages under this label may show a very diverse range
+of characteristics. \gls{BP}\il{Brazilian Portuguese}, on the contrary, instead
+of creating a lexical expletive\is{expletives} like \ili{French}, shows a
 competition between a null subject, and a prominent constituent moved to the
 structural subject position, resembling constructions of discourse
 configurational languages.
@@ -240,11 +240,11 @@ Portuguese} with four types of languages: \Cref{sec:key:26.3.1} with
 inflection; \Cref{sec:key:26.3.2} with Japanese, a radical type,\is{null subject languages!radical null subject languages} or a discourse
 configurational language type, with no Agr inflection; \Cref{sec:key:26.3.3}
 with Finnish, a Partial \gls{NSL}\is{null subject languages}; \Cref{sec:key:26.3.4} with \ili{English}, a
-[−NS] language; and \Cref{sec:key:26.3.5} with \ili{Icelandic}, the so-called
+[$-$NS] language; and \Cref{sec:key:26.3.5} with \ili{Icelandic}, the so-called
 \emph{semi[NS]} language.
 
 In the conclusions we will summarize the findings of the article, namely that
-\gls{BP}\il{Brazilian Portuguese} \isi{core grammar} is set to a [−NS] language
+\gls{BP}\il{Brazilian Portuguese} \isi{core grammar} is set to a [$-$NS] language
 with referential subjects and to a [+NS] language with regard to
 non-referential ones.  With regard to the literate Brazilians' \isi{E-language}
 it will be shown to exhibit a competition with regard to referential subjects,
@@ -314,12 +314,12 @@ A number of investigations on the morphosyntax of Brazilian Portuguese point to
 the conclusion that variable phenomena have a very regular distribution in the
 country. In fact, the polarization to which \citet{Lucchesi2009b} refers should
 be related particularly to variation in the use of agreement markers. The
-author himself, in a recent overview of sociolinguistic polarization in Brazil
+author, in a recent overview of sociolinguistic polarization in Brazil
 \parencite{Lucchesi2015}, distinguishes those processes of variation and change
 that reach all sectors of Brazilian society \emph{in the same direction} from
 those processes which take opposite directions, setting apart high and middle
 sectors from those at the base of the social pyramid. In spite of that, the
-author himself recognizes a sort of “leveling” towards non-standard variants.
+author recognizes a sort of “leveling” towards non-standard variants.
 
 In fact, the alleged contrast may be valid when we consider the rural--urban
 \emph{continuum}. Results for contemporary Brazilian morphosyntax show that,
@@ -347,11 +347,48 @@ popular theatre plays, written in Rio de Janeiro in the 19th and the 20th
 centuries. The results for referential subjects can be seen
 in~\Cref{fig:key:26.1}.
 
-\begin{figure}
-    \centering
-    \includegraphics[width=.75\textwidth]{./img/fig1.pdf}
-\caption{Null subjects in \gls{BP}\il{Brazilian Portuguese} in two centuries
-(From \citealt{Duarte1993})}
+%\begin{figure}
+%    \centering
+%    \includegraphics[width=.75\textwidth]{./img/fig1.pdf}
+%\caption{Null subjects in \gls{BP}\il{Brazilian Portuguese} in two centuries
+%(From \citealt{Duarte1993})}
+%\label{fig:key:26.1}
+%\end{figure}
+
+\begin{figure}[htpb]
+%    \centering
+%    \includegraphics[width=.75\linewidth]{./img/fig27-1.pdf}
+    \pgfplotstableread{data/katoduarte-fig1.csv}{\table}
+    \pgfplotstablegetcolsof{\table}
+    \pgfmathtruncatemacro\numberofcols{\pgfplotsretval-1}
+    \begin{tikzpicture}
+        \begin{axis}[
+                    colormap/RdYlBu,
+                    cycle list name = langsci,
+                    height = .45\textheight,
+                    legend cell align=left,
+                    legend columns=3,
+                    legend style={font=\footnotesize,anchor=north,at={(0.5,1.2)},anchor=north},
+                    line width=.75pt,
+                    sharp plot,
+                    width  = \textwidth,
+                    xmin = 1835, xmax = 2000,
+                    xtick = data,
+                    x tick label style={/pgf/number format/1000 sep=},
+                    xlabel = {Date},
+                    ymin = 0, ymax = 100,
+                    ytick distance = 10,
+                    ylabel = {\%},
+                    ]
+        \foreach \i in {1,...,\numberofcols} {%
+                \addplot+ table [x index={1},y index={\i},x expr=\thisrow{Date}] {\table};
+                \pgfplotstablegetcolumnnamebyindex{\i}\of{\table}\to{\colname} % Adding column headers to legend
+            \addlegendentryexpanded{\colname}
+        }
+        \end{axis}
+    \end{tikzpicture}
+\caption{Null subjects in \ili{Brazilian Portuguese} in two centuries
+(from \citealt{Duarte1993})}
 \label{fig:key:26.1}
 \end{figure}
 
@@ -372,7 +409,7 @@ important changes in the set of nominative\is{nominative case} pronouns, shown i
     \centering
     \begin{tabularx}{1\textwidth}{lXXXX}
     \lsptoprule
-                                             & Nominative\newline pronouns                   & Paradigm 1\newline19th century       & Paradigm 1\newline 20th century/1          & Paradigm 3\newline 20th century/2\\
+                                             & Nominative\newline pronouns                   & Paradigm 1\newline19th century       & Paradigm 2\newline 20th century/1          & Paradigm 3\newline 20th century/2\\
     \midrule
     \Fsg{}                                   & eu                                            & cant\emph{o}                         & cant\emph{o}                               & cant\emph{o} \\
     \Ssg{}                                   & tu\newline \emph{você}                        & canta\emph{s}\newline ---            &
@@ -389,7 +426,7 @@ important changes in the set of nominative\is{nominative case} pronouns, shown i
 from~\citealt{Duarte1993})}\label{tab:key:26.1}
 \end{table}
 
-The plays written in the first three synchronies, exhibit six  and sometimes
+The plays written in the first three periods, exhibit six  and sometimes
 five different forms, with a syncretism, represented by the address forms
 \emph{o(a) senhor(a)} \enquote*{the lord}, \enquote*{the lady} and \emph{Vossa
 Mercê} \enquote*{Your Grace}, which all combine with third person unmarked form
@@ -399,8 +436,8 @@ null subjects in the 1930s and the 1950s is triggered by the
 of \emph{Vossa Mercê} as \emph{você}, which is fully inserted in the pronominal
 system as second person reference, while the pronoun \emph{tu} is abandoned by
 some authors.\footnote{For some reason to be investigated, the most popular
-    authors of this type of “light” plays written in Rio de Janeiro made an
-    option in favor of \emph{você}. The city population has not abandoned the
+    authors of this type of “light” plays written in Rio de Janeiro made a
+    choice in favor of \emph{você}. The city population has not abandoned the
 use of \emph{tu} but it was more restricted to the suburban areas, with a
 number of new textile industries, where people born in the city were
 concentrated.} Those who insist in keeping \emph{tu} and \emph{você} in the
@@ -494,19 +531,19 @@ Returning to the results in \Cref{fig:key:26.1}, Duarte shows that the course
 of change is different with respect to first and  second person on one hand and
 to third person on the other. In the last quarter of the 20th century null
 first and second person subjects reach a mean of 20\%. Third person, thanks to
-the interaction of [+human] and [−human/−animate] referents, exhibits a slow
+the interaction of [+human] and [$-$human/$-$animate] referents, exhibits a slow
 descending curve (see \citealt{CyrinoEtAl2000}). Such results would be
-confirmed by \citegen{Duarte1995} analysis of spoken Rio de Janeiro variety.
+confirmed by \citegen{Duarte1995} analysis of spoken variety of Rio de Janeiro.
 Referential pronominal subjects in root clauses are preferentially overt
 \parencite{Duarte1995}.\footnote{In short answers we can have an apparent NS
     with third person, but we analyse this sort of structure as resulting from
-the fronting/focalization\is{focalisation} of the inflected verb eventually accompanied by its
-adjuncts, followed by the remnant \isi{movement} of the TP (cf.\
-\citealt{Kato2016}).} Second person singular, which triggered and led the
-change, reveals 10\% of null subjects, usually pragmatically identified
-(\ref{ex:key:26.6}a); first person singular null subjects reach 25\%,
-particularly when preceded by a functional category, such as a NegP, and AspP
-(\ref{ex:key:26.6}b):
+    the fronting/focalization\is{focalisation} of the inflected verb eventually
+    accompanied by its adjuncts, followed by the remnant \isi{movement} of the
+    TP (cf.\ \citealt{Kato2016}).} Second person singular, which triggered and
+    led the change, reveals 10\% of null subjects, usually pragmatically
+    identified (\ref{ex:key:26.6}a); first person singular null subjects reach
+    25\%, particularly when preceded by a functional category, such as a NegP,
+    and AspP (\ref{ex:key:26.6}b):
 
 \ea\label{ex:key:26.6}\ili{Brazilian Portuguese}
     \ea
@@ -543,7 +580,7 @@ In embedded clauses, co-reference still plays an important role
 (\citealt{Modesto2000,FigueiredoSilva2000,DuarteSoaresdaSilva2016}, a.o.), with
 a regular distribution between overt and null subjects. \citegen{Duarte1995}
 data show 32\% of null subjects in this \isi{control} pattern with [+human] and 44\%
-with [−animate] referents:\newpage
+with [$-$animate] referents:
 
 \ea%8
     \label{ex:key:26.8}\ili{Brazilian Portuguese}
@@ -592,10 +629,9 @@ with the development of the expletives \emph{ce}  and \emph{il} while
 
 \ea%12
     \label{ex:key:26.12}
-    \ea \ili{French} (apud \citealt[151]{Roberts1993})\\
+    \ea Middle \ili{French} (apud \citealt[151]{Roberts1993})\\
     \gll    {\textbf{Il} i} avoit bien .xxiiij.M.   archiers {a piet}\\
             there were about 24.000 archers marching\\
-    \newpage
     \ex \ili{Brazilian Portuguese}\\
     \gll    $\varnothing$\tss{\Expl} havia {bem uns} 24.000    arqueiros {a pé}\\
             {}  was about 24.000 archers marching\\
@@ -745,12 +781,12 @@ three types: i) free pronouns, like in \ili{English}, ii) \isi{clitics} as in
 Trentino, a Northern \ili{Italian} dialect or iii) agreement affixes, or
 pronominal Agr as in \ili{Italian} and \gls{EP}\il{European Portuguese} (cf.\
 Fig 2). The weak pronominals are Agreement affixes in the so-called consistent
-\emph{pro-drop} languages. All languages, on the other hand, dispose of strong
+\emph{pro-drop} languages. All languages, on the other hand, have strong
 pronouns, which exhibit a “default” case
 (\citealt{Kato2000,Schutze2001}).\footnote{Moreover, strong pronouns are always
-deictic, or referential, while weak pronouns can be deictic or referentially
-dependent.  Strong pronouns are always [+human] while weak pronouns can be
-[+human] or [−human].}
+    deictic, or referential, while weak pronouns can be deictic or
+    referentially dependent.  Strong pronouns are always [+human] while weak
+pronouns can be [+human] or [$-$human].}
 
 \ea\label{tree:fig2}
     \begin{tikzpicture}[baseline=(root.base), align=left]
@@ -873,7 +909,7 @@ overt pronoun, the sentence exhibits subject doubling, as in
 \gls{BP}\il{Brazilian Portuguese} (cf.\ the examples in \eqref{ex:key:26.18},
 apud \citealt{Kato2012}). But in either case, strong pronouns have a “default”
 case and are always referential and  [+animate] (\citealt{Kato1999},
-\citealt{Schutze2001}).\newpage
+\citealt{Schutze2001}).
 
 \begin{exe}
 \ex Position of strong pronouns\label{ex:key:26.fig4}\\
@@ -959,12 +995,47 @@ speakers of a consistent \gls{NSL}\is{null subject languages}.
 \Cref{fig:key:26.2} shows null subjects in spoken \gls{EP}\il{European
 Portuguese} and \gls{BP}\il{Brazilian Portuguese}.\largerpage[-2]
 
+%\begin{figure}[htpb]
+%    \centering
+%    \includegraphics[width=0.75\linewidth]{./img/fig2.pdf}
+%    \caption{Null subjects in spoken \gls{EP} and \gls{BP} (adapted
+%    from~\citealt{BarbosaDuarteKato2005}, Figure 3,
+%apud~\citealt{Duarte2004})}\label{fig:key:26.2}
+%\end{figure}
+
 \begin{figure}[htpb]
-    \centering
-    \includegraphics[width=0.75\linewidth]{./img/fig2.pdf}
-    \caption{Null subjects in spoken \gls{EP} and \gls{BP} (adapted
-    from~\citealt{BarbosaDuarteKato2005}, Figure 3,
-apud~\citealt{Duarte2004})}\label{fig:key:26.2}
+    \pgfplotstableread{data/katoduarte-fig2.csv}{\table}
+    \pgfplotstablegetcolsof{\table}
+    \pgfmathtruncatemacro\numberofcols{\pgfplotsretval-1}
+    \begin{tikzpicture}
+        \begin{axis}[
+                    ybar,
+                    nodes near coords,
+                    colormap/RdYlBu,
+                    height = .45\textheight,
+                    legend cell align=left,
+                    legend columns=3,
+                    legend style={font=\footnotesize,anchor=north,at={(0.5,1.2)},anchor=north},
+                    line width=.75pt,
+                    width  = \textwidth,
+                    xmin = .5, xmax = 3.5,
+                    xtick = data,
+                    xticklabels = {{First person}, {Second person}, {Third person}},
+                    xlabel = {Person of null subject},
+                    ymin = 0, ymax = 100,
+                    ytick distance = 10,
+                    ylabel = {\%},
+                    ]
+        \foreach \i in {1,...,\numberofcols} {%
+                \addplot+ table [x index={1},y index={\i},x expr=\thisrow{Person}] {\table};
+                \pgfplotstablegetcolumnnamebyindex{\i}\of{\table}\to{\colname} % Adding column headers to legend
+            \addlegendentryexpanded{\colname}
+        }
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Null subjects in spoken European and Brazilian Portuguese (adapted
+    from~\citealt{BarbosaDuarteKato2005}, Figure 3, apud~\citealt{Duarte2004})}%
+    \label{fig:26.2}
 \end{figure}
 
 Despite the fact that schools in Brazil try to
@@ -991,7 +1062,7 @@ As for qualitative distinctions \citeauthor{BarbosaDuarteKato2005}
 fact that overt pronouns in \gls{EP}\il{European Portuguese} are almost
 invariably [+animate], which shows that they are generally strong pronouns,
 while in \gls{BP}\il{Brazilian Portuguese} they can be [+animate] or
-[−animate], indicating that they can be strong or weak.
+[$-$animate], indicating that they can be strong or weak.
 
 \ea\label{ex:key:26.19}
     \ea\ili{European Portuguese}\\
@@ -1091,7 +1162,7 @@ option.
     \ea     \textcite{Modesto2000}\\
 	\gll	Paulo\tss{1} convenceu o Pedro\tss{2} que  \textbf{$\varnothing$}\tss{1/*2/*3} tinha que ir embora.\\
             Paulo  convinced the Pedro that {} had to go home\\
-	\glt	\enquote*{Paulo convinced Peter that he had to go home.}\newpage
+	\glt	\enquote*{Paulo convinced Peter that he had to go home.}
     \ex     \textcite{Kato2009}\\
     \gll	O Paulo\tss{1} convenceu \textbf{o} \textbf{Pedro}\textbf{\tss{2}} que \textbf{$\varnothing$}\textbf{\tss{1/2}} devia estudar mais.\\
 			the Paulo convinced the Peter that {} should study more\\
@@ -1103,7 +1174,7 @@ Working with the \isi{raising} phenomenon in \gls{BP}\il{Brazilian Portuguese},
 \citet{MartinsNunes2009} try to give an account of optionality seen in
 \eqref{ex:key:26.25} below as a matter of acquisition\is{language acquisition}, in line with what we saw
 in \Cref{sec:key:26.2.3}.  According to these authors, children start with the
-parameter in \gls{BP}\il{Brazilian Portuguese} set as [-]NS, with only
+parameter in \gls{BP}\il{Brazilian Portuguese} set as [$-$]NS, with only
 (\ref{ex:key:26.25}a) as a possibility, but later, in view of the input of
 literate speakers or writers, they add the possibility of an optional defective
 T in their grammar, which is incapable of  checking  the features of a raised
@@ -1206,7 +1277,7 @@ Portuguese}, but not in Japanese.
     \ex
 	\gll	A neve   cai   desde ontem   nesta cidade.\\
 			the snow falls since yesterday in.this city\\
-	\glt	\enquote*{The snow falls since yesterday in this city.}, \enquote*{The snow is falling since yesterday in this city.}
+	\glt	\enquote*{The snow has been falling since yesterday in this city}
     \ex
 	\gll	As cidades nessa região nevam muito.\\
             the cities    in.this region  rain.\Tpl{} {a lot}\\
@@ -1391,7 +1462,7 @@ As was shown in \Cref{sec:key:26.3.1}, the weakened \gls{BP}\il{Brazilian
 Portuguese} agreement morphemes have developed into a system of weak free
 pronouns, but without developing a lexical expletive\is{expletives}. This is the opposite of
 Finnish, with its rich pronominal agreement paradigm, but which, surprisingly,
-displays a lexical expletive\is{expletives}, a property of [−NS] languages, except that it is
+displays a lexical expletive\is{expletives}, a property of [$-$NS] languages, except that it is
 not nominative\is{nominative case}.   The creation of weak pronouns in \gls{BP}\il{Brazilian
     Portuguese}, like in \ili{French}, also explains why \gls{BP}\il{Brazilian
 Portuguese} null generic subjects occur in variation with overt weak pronouns,
@@ -1475,7 +1546,7 @@ vernacular language is taken into consideration, it becomes clear that its
 dissimilarities with other \gls{PNS}\is{null subject languages!partial null subject languages} languages are greater than  its
 similarities.
 
-\subsection{BP vs.\ English, a [−NS] language}\label{sec:key:26.3.4}
+\subsection{BP vs.\ English, a [$-$NS] language}\label{sec:key:26.3.4}
 
 We have seen in \Cref{sec:key:26.2} that the deterioration of verbal pronominal
 affixes led \gls{BP}\il{Brazilian Portuguese} to replace them with free weak
@@ -1504,15 +1575,15 @@ pronouns in one century \parencite{Duarte1993,Duarte2012}.
 			(you) will-have the horse that (you) want.\\
 	\ex	    \textbf{Você} não entende meu coração porque \textbf{você} ‘tá sempre olhando\\
 			pro céu \dots{} (M. Falabella, 1992) \\
-	        \enquote*{You  don't understand my heart because  you are always looking at-the sky.}
+	        \enquote*{You don't understand my heart because  you are always looking at-the sky.}
     \z
 \z
 
 Moreover, \gls{BP}\il{Brazilian Portuguese} underwent two changes with regard
 to generic “\emph{se}” constructions seen above:  first it lost the clitic
-“\emph{se}” resulting in the NS; second, as seen above, the impersonal
-resulting form is being preferably replaced by the personal form with \emph{você} or
-\emph{a gente} (see~\Cref{fig:key:26.3}).
+“\emph{se}” resulting in the NS; second, as seen above, impersonal
+\emph{se} is being preferably replaced by the personal form with
+\emph{você} or \emph{a gente} (see~\Cref{fig:26.3}).
 
 \ea%44
     \label{ex:key:26.44}
@@ -1520,26 +1591,66 @@ resulting form is being preferably replaced by the personal form with \emph{voc�
     \gll    $\varnothing$\tss{\Genc} não \textbf{se} pode entrar de sapato.\\
             {} not   \emph{se}  can   enter  of shoes\\
     \ex cf.\ Japanese\\
-        $\varnothing$\tss{\Genc} não pode entrar de sapato.
+    \gll    $\varnothing$\tss{\Genc} kutsu-de haite-wa ikenai.\\
+            {} shoe-with enter-\Topic{} cannot\\
     \ex cf.\ English\\
-        \textbf{Você} nao pode entrar de sapato.\\
-        ‘One / you can’t get in with one’s / your shoes on.’
+    \textbf{Você} / \textbf{a gente} nao pode entrar de sapato.\\
+        ‘You / one can’t get in with your / one’s shoes on.’
     \z
 \z
 
+%\begin{figure}[htpb]
+%    \centering
+%    \includegraphics[width=.75\linewidth]{./img/fig3.pdf}
+%    \caption{Generic subjects in Brazilian Portuguese in three
+%    generations}\label{fig:26.3}
+%\end{figure}
+
 \begin{figure}[htpb]
-    \centering
-    \includegraphics[width=.75\linewidth]{./img/fig3.pdf}
-    \caption{Generic subjects in Brazilian Portuguese in three
-    generations}\label{fig:key:26.3}
+    \pgfplotstableread{data/katoduarte-fig3.csv}{\table}
+    \pgfplotstablegetcolsof{\table}
+    \pgfmathtruncatemacro\numberofcols{\pgfplotsretval-1}
+    \begin{tikzpicture}
+        \begin{axis}[
+                    colormap/RdYlBu,
+                    cycle list name = langsci,
+                    height = .45\textheight,
+                    legend cell align=left,
+                    legend columns=3,
+                    legend style={font=\footnotesize,anchor=north,at={(0.5,1.2)},anchor=north},
+                    line width=.75pt,
+                    sharp plot,
+                    width  = \textwidth,
+                    xmin = .5, xmax = 3.5,
+                    xtick = data,
+                    xticklabels = {{55+ years}, {35--55 years}, {25--35 years}},
+                    xlabel = {Age groups},
+                    ymin = 0, ymax = 100,
+                    ytick distance = 10,
+                    ylabel = {\%},
+                    nodes near coords,
+%                    nodes near coords align={horizontal},
+                    ]
+        \foreach \i in {1,...,\numberofcols} {%
+                \addplot+ table [x index={1},y index={\i},x expr=\thisrow{Type}] {\table};
+                \pgfplotstablegetcolumnnamebyindex{\i}\of{\table}\to{\colname} % Adding column headers to legend
+            %\addlegendentryexpanded{\colname}
+        }
+        \addlegendentry{Clitic \emph{se}}
+        \addlegendentry{Null}
+        \addlegendentry{\emph{você} \enquote*{you}}
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Generic subjects in Brazilian Portuguese in three generations}%
+    \label{fig:26.3}
 \end{figure}
 
-Further evidence that \gls{BP}\il{Brazilian Portuguese} has become a [−NS]
+Further evidence that \gls{BP}\il{Brazilian Portuguese} has become a [$-$NS]
 language is in the fact that subject doubling (or \isi{left dislocation}) is
-frequent in daily speech (cf.\ (c)).\footnote{See \citet{Britto2000}, for whom
+frequent in daily speech.\footnote{See \citet{Britto2000}, for whom
     the loss of VS order in \gls{BP}\il{Brazilian Portuguese} made thetic
 sentences exhibit the SV order, and the categorical sentence exhibit a Left
-Dislocation structure.}\newpage
+Dislocation structure.}
 
 \ea%45
     \label{ex:key:26.45}\ili{Brazilian Portuguese}
@@ -1563,7 +1674,7 @@ non-referential subjects, and their doubling is similar.
     \z
 \z
 
-\citet{Roberts1993b} shows that, when \ili{French} became a [-]NS language, it
+\citet{Roberts1993b} shows that, when \ili{French} became a [$-$]NS language, it
 also started having subject doubling. A further subsequent change in
 \ili{French} was that the “default” case of its strong pronouns changed from
 nominative to dative\is{dative case}. \gls{BP}\il{Brazilian Portuguese} retained the same case
@@ -1577,7 +1688,7 @@ of the old strong pronouns.
     \z
 \z
 
-Another similarity to [-]NS languages is present in complement contexts. When
+Another similarity to [$-$]NS languages is present in complement contexts. When
 the embedded subject is a pronoun, \gls{BP}\il{Brazilian Portuguese} is exactly
 like \ili{English} (EN) in anaphoric interpretation. However, its NS is
 distinct in interpretation from the NS in \gls{EP}\il{European Portuguese}, a
@@ -1602,11 +1713,11 @@ Recall that (\ref{ex:key:26.48}b) is the form that a pre-school child would
 produce, while \eqref{ex:key:26.49} is the one that may be produced  by some
 Brazilians after schooling in formal settings.
 
-\subsection{BP vs. Icelandic, a semi [−NS] language}\label{sec:key:26.3.5}
+\subsection{BP vs.\ Icelandic, a semi [$-$NS] language}\label{sec:key:26.3.5}
 
 Up to now, we have been considering three types of \gls{NSL}s: the consistent,
 like \gls{EP}\il{European Portuguese}, the radical\is{null subject languages!radical null subject languages} like \ili{Japanese}, and the
-Partial \gls{NSL}\is{null subject languages} like Finnish. We also saw a prototypical example of a [−NS]
+Partial \gls{NSL}\is{null subject languages} like Finnish. We also saw a prototypical example of a [$-$NS]
 language, namely \ili{English}.
 
 We have now to consider the \emph{semi pro-drop type}, like \ili{German},
@@ -1619,14 +1730,14 @@ dispose of the NS with weather verbs (cf.\ also \citealt{Huang2000}).
 
 If we consider that referential NSs in Brazilian \isi{core grammar} are [–NS]
 and that it disposes of Null Expletives, we might propose that
-\gls{BP}\il{Brazilian Portuguese} is actually a \textbf{semi} \textbf{[−NS]}
+\gls{BP}\il{Brazilian Portuguese} is actually a \textbf{semi} \textbf{[$-$NS]}
 language, as was defended in \citet{Saab2016}, with both
 \emph{quasi}-argumental  (weather verbs) and true expletive\is{expletives} NSs.
 
 What we should point out, however, is the fact that in both types of
 \emph{semi} \emph{NS} language, the expletive\is{expletives} can be overt or
 null \citep{Biberauer2010}, while in Brazil there are no overt expletives, like
-in consistent \gls{NSL}s.\newpage
+in consistent \gls{NSL}s.
 
 \ea%50
     \label{ex:key:26.50ice}\ili{Icelandic}
@@ -1731,7 +1842,7 @@ theoretical hypotheses on the NS Parameter.
 We compared \gls{BP}\il{Brazilian Portuguese} with five language types: (a) the
 consistent [NS] type; (b) the radical\is{null subject languages!radical null
 subject languages} [NS] type; (c) the partial [NS] type,\is{null subject languages!partial null subject languages} (d)
-the [−NS] type and the semi [−NS] type.\is{null subject languages!semi null subject languages}  The comparison has led to the
+the [$-$NS] type and the semi [$-$NS] type.\is{null subject languages!semi null subject languages}  The comparison has led to the
 following summary:
 
 \paragraph*{(a)} except for the expletive\is{expletives} NS, \gls{BP}\il{Brazilian Portuguese}
@@ -1755,16 +1866,17 @@ while in \ili{Finnish} they seem to be in SpecFP, an A$'$-position;
 \paragraph*{(d)} (i) \gls{BP}\il{Brazilian Portuguese} has no lexical
 expletives or indefinite  pronouns like \emph{one}  in \ili{English}; (ii) but,
 in its referential NSs, \gls{BP}\il{Brazilian Portuguese} is exactly like
-\ili{English} in production and comprehension: a [−NS] language.
+\ili{English} in production and comprehension: a [$-$NS] language.
 
 In conclusion, the \isi{core grammar} of \gls{BP}\il{Brazilian Portuguese} is
-(i) a [−NS] language with regard to referential subjects, and (ii) a [+NS] of
+(i) a [$-$NS] language with regard to referential subjects, and (ii) a [+NS] of
 the consistent type regarding Null expletives; and (iii) a [+NS] of the
 radical\is{null subject languages!radical null subject languages}
 type concerning the null generic subjects. As for the system of the literate
 adult, it maintains the Null expletives and Null generic subjects of the core
 grammar, while, with regard to referential expressions, they are partly
-pronominal (DP), like in the child \isi{core grammar}, and [−NS] like \ili{English}.
+pronominal (DP), like in the child \isi{core grammar}, and [$-$NS] like
+\ili{English}.
 
 \printchapterglossary{}
 
