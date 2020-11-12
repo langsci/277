@@ -1591,11 +1591,11 @@ to generic “\emph{se}” constructions seen above:  first it lost the clitic
     \gll    $\varnothing$\tss{\Genc} não \textbf{se} pode entrar de sapato.\\
             {} not   \emph{se}  can   enter  of shoes\\
     \ex cf.\ Japanese\\
-    \gll    $\varnothing$\tss{\Genc} kutsu-de haite-wa ikenai.\\
-            {} shoe-with enter-\Topic{} cannot\\
+    \gll    $\varnothing$\tss{\Genc} não pode entrar de sapato.\\
+            {} not can enter of shoes\\
     \ex cf.\ English\\
     \textbf{Você} / \textbf{a gente} nao pode entrar de sapato.\\
-        ‘You / one can’t get in with your / one’s shoes on.’
+        ‘You / {the folks} can’t get in with your / one’s shoes on.’
     \z
 \z
 
@@ -1628,7 +1628,7 @@ to generic “\emph{se}” constructions seen above:  first it lost the clitic
                     ymin = 0, ymax = 100,
                     ytick distance = 10,
                     ylabel = {\%},
-                    nodes near coords,
+%                    nodes near coords,
 %                    nodes near coords align={horizontal},
                     ]
         \foreach \i in {1,...,\numberofcols} {%
@@ -1639,6 +1639,15 @@ to generic “\emph{se}” constructions seen above:  first it lost the clitic
         \addlegendentry{Clitic \emph{se}}
         \addlegendentry{Null}
         \addlegendentry{\emph{você} \enquote*{you}}
+        \node [RdYlBu-F!60!black, above] at (axis cs: 1, 58) {58};
+        \node [RdYlBu-F!60!black, above] at (axis cs: 2, 85) {85};
+        \node [RdYlBu-F!60!black, above, yshift=-2] at (axis cs: 3, 93) {93};
+        \node [RdYlBu-D, above] at (axis cs: 1, 21) {21};
+        \node [RdYlBu-D, above] at (axis cs: 2, 10) {10};
+        \node [RdYlBu-D, above] at (axis cs: 3, 6) {6};
+        \node [RdYlBu-A, below] at (axis cs: 1, 21) {21};
+        \node [RdYlBu-A, left, yshift=-5] at (axis cs: 2, 5) {5};
+        \node [RdYlBu-A, right, yshift=3] at (axis cs: 3, 1) {1};
         \end{axis}
     \end{tikzpicture}
     \caption{Generic subjects in Brazilian Portuguese in three generations}%
@@ -1794,8 +1803,17 @@ referring to the speaker or a group including the speaker.
 
 What is different with respect to \gls{BP}\il{Brazilian Portuguese} is the
 variation allowed between the NS and the weak pronouns (\emph{você} and \emph{a
-gente}), a possibility nonexistent in \ili{Icelandic}, except in c., where we
-have a null expletive\is{expletives}:
+    gente}), a possibility nonexistent in \ili{Icelandic}.\footnote{As shown
+    before, \gls{BP}\il{Brazilian Portuguese} allows personal sentences with
+    climate verbs:
+
+\begin{exe}
+    \exi{(i)} Essas florestas tropicais chovem muito.\\
+            \enquote*{These rain forests rain.\Tpl{} a lot.}
+    \exi{(ii)} Todos os meus aniversários chovem, porque  eu faço aniversário em novembro.\\
+            \enquote*{All the my birthdays rain.\Tpl{}, because my birthday is
+            in November.}, lit. \enquote*{\dots{} I do birthday in November}
+\end{exe}}
 
 \ea%52
     \label{ex:key:26.52}\ili{Brazilian Portuguese}
@@ -1805,20 +1823,9 @@ have a null expletive\is{expletives}:
     \ex
     \gll    Na nossa familia \textbf{a gente }              não bebe pinga.\\
             in   our family {we (the folks)}  not drinks brandy\\
-    \ex ---\footnotemark{}
     \ex     \textbf{Eles} pegaram o culpado ontem à noite.
     \z
 \z
-\footnotetext{As shown before, \gls{BP}\il{Brazilian Portuguese} allows
-    personal sentences with climate verbs:
-
-\begin{exe}
-    \exi{(i)} Essas florestas tropicais chovem muito.\\
-            \enquote*{These rain forests rain.\Tpl{} a lot.}
-    \exi{(ii)} Todos os meus aniversários chovem, porque  eu faço aniversário em novembro.\\
-            \enquote*{All the my birthdays rain.\Tpl{}, because my birthday is
-            in November.}, lit. \enquote*{\dots{} I do birthday in November}
-\end{exe}}
 
 It seems, therefore, that \emph{semi} \emph{NS} languages should be split in
 three types, the last of which has referential overt pronouns, Null expletives
