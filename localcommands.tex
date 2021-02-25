@@ -61,14 +61,3 @@
 
 % bobaljik
 \newcommand{\pro}{\textsc{pro}}
-
-% A new implemention for the langscibook paperappendix environment
-\newenvironment{paperappendix}{%
-\newcommand*{\appendixmore}{%
-\renewcommand*\thesection{\Alph{section}}
-\renewcommand*{\sectionformat}{%
-\appendixname~\thesection\autodot\enskip}%
-\renewcommand*{\sectionmarkformat}{%
-\appendixname~\thesection\autodot\enskip}}
-\appendix
-}{}

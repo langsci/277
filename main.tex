@@ -9,15 +9,10 @@
 % Some lines start with %. Remove the % to include them
 
 \documentclass[output=book
-		,modfonts
-		,nonflat
         ,collection
-        ,collectionchapter
-        ,collectiontoclongg
-        ,biblatex
-        ,arseneau
-% 	        ,coverus
-		  ]{langsci/langscibook}
+        ,multiauthors
+        ,draftmode
+        ]{langscibook}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -43,16 +38,9 @@
 
 \currentpdfbookmark{Contents}{name} % adds a PDF bookmark
 \tableofcontents
-%\include{chapters/preface}
-\include{chapters/acknowledgments}
+% % \include{chapters/acknowledgments}
 
-%% Additional prefaces and/or introductions that also have authors
-\lsCollectionPaperFrontmatterMode % Enter the Frontmatter Mode.
 \includepaper{chapters/preface}
-%\includepaper{chapters/prefaceEd2}
-\lsCollectionPaperMainmatterMode % Leave the Frontmatter Mode
-\setcounter{chapter}{0} % Reset the chapter counter so that preceeding prefaces are not counted
-%%
 \mainmatter
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -61,16 +49,6 @@
 %%%                                              %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%\part{Structural issues in morphosyntax}
-%\includepaper{chapters/01} % done
-%\includepaper{chapters/02} % done
-%\includepaper{chapters/03} % done
-%\includepaper{chapters/04}
-%\includepaper{chapters/05}
-%\includepaper{chapters/06}
-%\includepaper{chapters/07}
-%\includepaper{chapters/08}
-%\includepaper{chapters/09}
 \part{Case and agreement}
 \includepaper{chapters/10}
 \includepaper{chapters/11}
