@@ -9,15 +9,10 @@
 % Some lines start with %. Remove the % to include them
 
 \documentclass[output=book
-		,modfonts
-		,nonflat
         ,collection
-        ,collectionchapter
-        ,collectiontoclongg
-        ,biblatex
-        ,arseneau
-% 	        ,coverus
-		  ]{langsci/langscibook}
+        ,multiauthors
+        ,draftmode
+        ]{langscibook}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -43,16 +38,9 @@
 
 \currentpdfbookmark{Contents}{name} % adds a PDF bookmark
 \tableofcontents
-%\include{chapters/preface}
-\include{chapters/acknowledgments}
+% % \include{chapters/acknowledgments}
 
-%% Additional prefaces and/or introductions that also have authors
-\lsCollectionPaperFrontmatterMode % Enter the Frontmatter Mode.
 \includepaper{chapters/preface}
-%\includepaper{chapters/prefaceEd2}
-\lsCollectionPaperMainmatterMode % Leave the Frontmatter Mode
-\setcounter{chapter}{0} % Reset the chapter counter so that preceeding prefaces are not counted
-%%
 \mainmatter
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
