@@ -22,8 +22,13 @@
 % \BookDOI{}%ask coordinator for DOI
 \renewcommand{\lsISBNdigital}{000-0-000000-00-0}
 \renewcommand{\lsISBNhardcover}{000-0-000000-00-0}
-\renewcommand{\lsISBNsoftcover}{000-0-000000-00-0}
-\renewcommand{\lsISBNsoftcoverus}{000-0-000000-00-0}
 \renewcommand{\lsSeries}{ogs} % use lowercase acronym, e.g. sidl, eotms, tgdi
 %\renewcommand{\lsSeriesNumber}{} %will be assigned when the book enters the proofreading stage
 \renewcommand{\lsID}{277} % contact the coordinator for the right number
+
+
+\SetupAffiliations{output in groups=false, 
+                   separator between two={\bigskip\\},
+                   separator between multiple={\bigskip\\},
+                   separator between final two={\bigskip\\}
+                   }
