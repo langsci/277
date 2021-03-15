@@ -1845,7 +1845,8 @@ Storage and cataloguing done by \storageinstitution\\[3ex]
                                      output authors font=\normalfont\slshape,
                                      separator between two={~\&~},
                                      separator between multiple={,~},
-                                     separator between final two={~\&~}]{\@author}}
+                                     separator between final two={~\&~}
+                                    ]{\@author}}
         \rohead{\lsCollectionPaperHeaderTitle}
         % The following ensure that a chapter is treated as a heading, which
         % controls page break penalties and indentation following the heading.
