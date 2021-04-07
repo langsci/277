@@ -910,7 +910,7 @@ first={empty category principle (ECP)}}%
 
 
 \bibglsnewsymbol{EP}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{96}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{98}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{100}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{103}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{108}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{110}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{114}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{118}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{365}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{366}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{375}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{377}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{379}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{390}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{391}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{393}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{96}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{98}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{100}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{103}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{108}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{110}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{114}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{118}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{365}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{366}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{375}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{377}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{379}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{391}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{393}},
 sort={EP|},
 first={European Portuguese (EP)}}%
 {EP}%
@@ -934,7 +934,6 @@ first={European Portuguese (EP)}}%
 \glsxtrfieldlistadd{EP}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{377}}
 \glsxtrfieldlistadd{EP}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{378}}
 \glsxtrfieldlistadd{EP}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{379}}
-\glsxtrfieldlistadd{EP}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{390}}
 \glsxtrfieldlistadd{EP}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{391}}
 \glsxtrfieldlistadd{EP}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{393}}
 
