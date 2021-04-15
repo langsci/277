@@ -46,7 +46,7 @@
  \longnewglossaryentry*{#1}{name={#3},sort={#1},category={symbol},#2}{#4}}
 
 \bibglsnewsymbol{1}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{4}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{12}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{28}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{35}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{38}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{74}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{76}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{79}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{83}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{105}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{107}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{118}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{119}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{152}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{153}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{162}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{166}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{175}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{187}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{230}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{234}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{235}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{303}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{306}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{332}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{334}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{336}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{337}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{340}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{341}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{348}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{349}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{351}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{353}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{357}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{366}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{368}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{370}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{372}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{386}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{389}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{4}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{12}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{28}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{35}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{38}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{74}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{76}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{79}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{83}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{105}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{107}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{118}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{119}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{152}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{153}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{162}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{166}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{175}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{187}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{230}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{234}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{235}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{303}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{306}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{332}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{334}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{336}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{337}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{340}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{341}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{348}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{349}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{351}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{352}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{357}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{366}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{368}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{370}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{372}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{386}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{389}},
 sort={1|}}%
 {\textsc{1}}%
 {first person}
@@ -100,7 +100,6 @@ sort={1|}}%
 \glsxtrfieldlistadd{1}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{349}}
 \glsxtrfieldlistadd{1}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{351}}
 \glsxtrfieldlistadd{1}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{352}}
-\glsxtrfieldlistadd{1}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{353}}
 \glsxtrfieldlistadd{1}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{357}}
 \glsxtrfieldlistadd{1}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{366}}
 \glsxtrfieldlistadd{1}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{368}}
@@ -120,7 +119,7 @@ sort={1|}}%
 
 
 \bibglsnewsymbol{2}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{56}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{58}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{60}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{62}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{74}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{76}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{83}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{85}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{149}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{154}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{164}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{167}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{168}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{175}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{178}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{180}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{182}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{185}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{187}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{333}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{334}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{336}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{338}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{340}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{349}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{351}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{353}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{354}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{366}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{368}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{371}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{386}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{389}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{56}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{58}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{60}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{62}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{74}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{76}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{83}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{85}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{149}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{154}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{164}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{167}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{168}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{175}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{178}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{180}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{182}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{185}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{187}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{333}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{334}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{336}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{338}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{340}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{349}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{351}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{353}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{366}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{368}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{371}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{386}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{389}},
 sort={2|}}%
 {\textsc{2}}%
 {second person}
@@ -154,7 +153,6 @@ sort={2|}}%
 \glsxtrfieldlistadd{2}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{349}}
 \glsxtrfieldlistadd{2}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{351}}
 \glsxtrfieldlistadd{2}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{353}}
-\glsxtrfieldlistadd{2}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{354}}
 \glsxtrfieldlistadd{2}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{366}}
 \glsxtrfieldlistadd{2}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{368}}
 \glsxtrfieldlistadd{2}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{371}}
@@ -397,7 +395,7 @@ sort={adj|}}%
 
 
 \bibglsnewsymbol{agr}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{191}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{196}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{199}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{204}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{206}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{207}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{209}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{213}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{350}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{351}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{355}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{191}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{196}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{199}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{204}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{206}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{207}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{209}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{213}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{350}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{355}},
 sort={agr|}}%
 {\textsc{agr}}%
 {agreement}
@@ -421,7 +419,6 @@ sort={agr|}}%
 \glsxtrfieldlistadd{agr}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{212}}
 \glsxtrfieldlistadd{agr}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{213}}
 \glsxtrfieldlistadd{agr}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{350}}
-\glsxtrfieldlistadd{agr}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{351}}
 \glsxtrfieldlistadd{agr}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{355}}
 
 
@@ -619,7 +616,7 @@ sort={CDAP|}}%
 
 
 \bibglsnewsymbol{cl}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{5}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{11}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{13}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{15}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{83}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{85}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{243}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{299}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{300}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{306}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{309}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{311}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{335}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{338}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{380}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{412}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{414}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{420}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{5}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{11}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{13}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{15}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{83}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{85}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{243}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{299}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{300}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{306}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{310}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{335}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{338}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{380}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{412}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{414}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{420}},
 sort={cl|}}%
 {\textsc{cl}}%
 {clitic}
@@ -636,7 +633,7 @@ sort={cl|}}%
 \glsxtrfieldlistadd{cl}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{307}}
 \glsxtrfieldlistadd{cl}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{308}}
 \glsxtrfieldlistadd{cl}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{309}}
-\glsxtrfieldlistadd{cl}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{311}}
+\glsxtrfieldlistadd{cl}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{310}}
 \glsxtrfieldlistadd{cl}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{335}}
 \glsxtrfieldlistadd{cl}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{338}}
 \glsxtrfieldlistadd{cl}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{380}}
@@ -910,7 +907,7 @@ first={empty category principle (ECP)}}%
 
 
 \bibglsnewsymbol{EP}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{96}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{98}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{100}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{103}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{108}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{110}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{114}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{118}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{365}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{366}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{375}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{377}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{379}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{391}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{393}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{96}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{98}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{100}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{103}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{108}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{110}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{114}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{118}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{365}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{366}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{375}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{377}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{379}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{390}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{391}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{393}},
 sort={EP|},
 first={European Portuguese (EP)}}%
 {EP}%
@@ -934,6 +931,7 @@ first={European Portuguese (EP)}}%
 \glsxtrfieldlistadd{EP}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{377}}
 \glsxtrfieldlistadd{EP}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{378}}
 \glsxtrfieldlistadd{EP}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{379}}
+\glsxtrfieldlistadd{EP}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{390}}
 \glsxtrfieldlistadd{EP}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{391}}
 \glsxtrfieldlistadd{EP}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{393}}
 
@@ -965,7 +963,7 @@ first={extended projection principle (EPP)}}%
 
 
 \bibglsnewsymbol{erg}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{24}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{28}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{29}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{35}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{36}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{38}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{41}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{75}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{76}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{347}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{348}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{351}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{355}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{357}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{24}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{28}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{29}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{35}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{36}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{38}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{41}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{75}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{76}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{347}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{348}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{351}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{354}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{357}},
 sort={erg|}}%
 {\textsc{erg}}%
 {ergative}
@@ -981,7 +979,7 @@ sort={erg|}}%
 \glsxtrfieldlistadd{erg}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{347}}
 \glsxtrfieldlistadd{erg}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{348}}
 \glsxtrfieldlistadd{erg}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{351}}
-\glsxtrfieldlistadd{erg}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{355}}
+\glsxtrfieldlistadd{erg}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{354}}
 \glsxtrfieldlistadd{erg}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{357}}
 
 
@@ -1011,12 +1009,11 @@ first={exhaustive control (ExC)}}%
 
 
 \bibglsnewsymbol{excl}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{352}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{353}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{352}},
 sort={excl|}}%
 {\textsc{excl}}%
 {exclusive}
 \glsxtrfieldlistadd{excl}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{352}}
-\glsxtrfieldlistadd{excl}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{353}}
 
 
 \bibglsnewsymbol{expl}%
@@ -1242,7 +1239,7 @@ sort={indic|}}%
 
 
 \bibglsnewsymbol{inf}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{76}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{318}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{320}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{322}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{328}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{337}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{338}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{348}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{349}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{351}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{353}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{354}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{76}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{318}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{320}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{322}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{328}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{337}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{338}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{348}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{349}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{351}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{353}},
 sort={inf|}}%
 {\textsc{inf}}%
 {infinitive}
@@ -1258,7 +1255,6 @@ sort={inf|}}%
 \glsxtrfieldlistadd{inf}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{349}}
 \glsxtrfieldlistadd{inf}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{351}}
 \glsxtrfieldlistadd{inf}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{353}}
-\glsxtrfieldlistadd{inf}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{354}}
 
 
 \bibglsnewsymbol{ins}%
@@ -1459,13 +1455,12 @@ sort={neg|}}%
 
 
 \bibglsnewsymbol{nfin}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{349}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{352}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{353}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{349}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{352}},
 sort={nfin|}}%
 {\textsc{nfin}}%
 {non-finite}
 \glsxtrfieldlistadd{nfin}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{349}}
 \glsxtrfieldlistadd{nfin}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{352}}
-\glsxtrfieldlistadd{nfin}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{353}}
 
 
 \bibglsnewsymbol{NI}%
@@ -1487,7 +1482,7 @@ sort={nmlz|}}%
 
 
 \bibglsnewsymbol{nom}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{11}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{13}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{15}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{16}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{24}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{26}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{38}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{69}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{71}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{73}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{74}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{77}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{79}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{81}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{88}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{99}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{105}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{106}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{113}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{115}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{117}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{118}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{129}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{130}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{132}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{135}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{142}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{152}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{154}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{318}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{322}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{328}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{332}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{333}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{338}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{346}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{348}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{355}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{383}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{384}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{11}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{13}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{15}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{16}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{24}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{26}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{38}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{69}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{71}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{73}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{74}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{77}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{79}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{81}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{88}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{99}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{105}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{106}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{113}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{115}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{117}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{118}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{129}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{130}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{132}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{135}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{142}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{152}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{154}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{318}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{322}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{328}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{332}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{333}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{338}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{346}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{348}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{354}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{383}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{384}},
 sort={nom|}}%
 {\textsc{nom}}%
 {nominative}
@@ -1539,7 +1534,7 @@ sort={nom|}}%
 \glsxtrfieldlistadd{nom}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{338}}
 \glsxtrfieldlistadd{nom}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{346}}
 \glsxtrfieldlistadd{nom}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{348}}
-\glsxtrfieldlistadd{nom}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{355}}
+\glsxtrfieldlistadd{nom}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{354}}
 \glsxtrfieldlistadd{nom}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{383}}
 \glsxtrfieldlistadd{nom}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{384}}
 
@@ -1556,14 +1551,13 @@ first={negative polarity item (NPI)}}%
 
 
 \bibglsnewsymbol{npst}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{76}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{352}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{354}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{76}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{352}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{353}},
 sort={npst|}}%
 {\textsc{npst}}%
 {non-past}
 \glsxtrfieldlistadd{npst}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{76}}
 \glsxtrfieldlistadd{npst}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{352}}
 \glsxtrfieldlistadd{npst}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{353}}
-\glsxtrfieldlistadd{npst}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{354}}
 
 
 \bibglsnewsymbol{nsg}%
@@ -1927,7 +1921,7 @@ sort={PNS|}}%
 
 
 \bibglsnewsymbol{poss}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{59}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{71}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{72}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{79}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{148}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{154}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{167}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{168}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{230}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{308}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{309}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{311}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{59}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{71}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{72}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{79}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{148}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{154}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{167}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{168}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{230}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{308}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{310}},
 sort={poss|}}%
 {\textsc{poss}}%
 {possessive}
@@ -1942,7 +1936,7 @@ sort={poss|}}%
 \glsxtrfieldlistadd{poss}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{230}}
 \glsxtrfieldlistadd{poss}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{308}}
 \glsxtrfieldlistadd{poss}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{309}}
-\glsxtrfieldlistadd{poss}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{311}}
+\glsxtrfieldlistadd{poss}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{310}}
 
 
 \bibglsnewsymbol{prog}%
@@ -2094,18 +2088,17 @@ sort={rg|}}%
 
 
 \bibglsnewsymbol{s}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{351}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{353}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{354}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{357}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{351}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{353}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{357}},
 sort={s|}}%
 {\textsc{s}}%
 {single argument of a canonical intransitive verb}
 \glsxtrfieldlistadd{s}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{351}}
 \glsxtrfieldlistadd{s}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{353}}
-\glsxtrfieldlistadd{s}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{354}}
 \glsxtrfieldlistadd{s}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{357}}
 
 
 \bibglsnewsymbol{sbj}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{24}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{55}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{58}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{59}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{63}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{71}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{76}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{79}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{230}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{349}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{351}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{355}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{24}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{55}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{58}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{59}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{63}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{71}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{76}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{79}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{230}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{349}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{350}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{355}},
 sort={sbj|}}%
 {\textsc{sbj}}%
 {subject}
@@ -2124,7 +2117,6 @@ sort={sbj|}}%
 \glsxtrfieldlistadd{sbj}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{230}}
 \glsxtrfieldlistadd{sbj}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{349}}
 \glsxtrfieldlistadd{sbj}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{350}}
-\glsxtrfieldlistadd{sbj}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{351}}
 \glsxtrfieldlistadd{sbj}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{355}}
 
 
