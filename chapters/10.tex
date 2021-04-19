@@ -460,7 +460,7 @@ are incompatible with objects bearing accusative case, actually do seem to fall
 into some such category associated with the synchronic canonical functions of
 non-active morphology (namely: self-benefactive). In other words, the pattern
 observed in (\ref{ex:10.17}a) vs.\ (\ref{ex:10.17}b) seems to be productive, as
-also replicated in (\ref{ex:10.18}a) vs.\ (\ref{ex:10.18}b).
+also replicated in (\ref{ex:10.18}a) vs.\ (\ref{ex:10.18}b).\newpage
 
 \ea\label{ex:10.18} \ili{Albanian}
     \ea
@@ -829,7 +829,11 @@ seen novel evidence for the view that roots have meaning and that specifically
 there are entity denoting roots, as argued in \citet{Harley2005,Levinson2007}
 and others.
 
-\printchapterglossary{}
+\makeatletter
+{\renewenvironment{theglossary}%
+  {\begin{multicols}{3}\raggedright\def\@gls@prevlevel{-1}}{\par\end{multicols}}
+  \printchapterglossary{}}
+\makeatother
 
 \section*{Acknowledgements}
 
