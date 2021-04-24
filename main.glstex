@@ -615,7 +615,7 @@ sort={CDAP|}}%
 
 
 \bibglsnewsymbol{cl}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{5}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{11}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{13}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{15}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{83}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{85}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{239}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{295}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{296}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{302}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{306}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{331}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{334}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{376}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{408}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{410}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{416}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{5}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{11}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{13}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{15}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{83}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{85}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{239}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{295}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{296}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{302}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{306}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{331}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{333}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{334}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{376}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{408}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{410}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{416}},
 sort={cl|}}%
 {\textsc{cl}}%
 {clitic}
@@ -634,6 +634,7 @@ sort={cl|}}%
 \glsxtrfieldlistadd{cl}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{305}}
 \glsxtrfieldlistadd{cl}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{306}}
 \glsxtrfieldlistadd{cl}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{331}}
+\glsxtrfieldlistadd{cl}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{333}}
 \glsxtrfieldlistadd{cl}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{334}}
 \glsxtrfieldlistadd{cl}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{376}}
 \glsxtrfieldlistadd{cl}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{408}}
