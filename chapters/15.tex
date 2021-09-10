@@ -706,7 +706,11 @@ grafted.\footnote{Not unexpectedly the same \gls{TFR} with a neuter noun is
 %%please move the includegraphics inside the {figure} environment
 %%\includegraphics[width=\textwidth]{vanRiemsdijkrevised-img12.png}
  %
-% Dear copy{}-editor/ formatter, in \figref{fig:5} there is a small but important error which, due to my insufficient knowledge and means, I cannot correct.  Underneath the blue oval there is a node label that reads   AI{\textbar}. The last vertical stroke should be removed. That is, this label should simply read   AI. I hope you can do this for me. Thanks.
+% Dear copy{}-editor/ formatter, in \figref{fig:5} there is a small but
+% important error which, due to my insufficient knowledge and means, I cannot
+% correct.  Underneath the blue oval there is a node label that reads
+% AI{\textbar}. The last vertical stroke should be removed. That is, this label
+% should simply read   AI. I hope you can do this for me. Thanks.
 %
 
 %\emph{\figref{fig:5}: Mismatch avoidance with attributive adjectives}
@@ -736,8 +740,8 @@ grafted.\footnote{Not unexpectedly the same \gls{TFR} with a neuter noun is
                 [.VP
                     [.V {zou noemen} ]
                     [.SC
-                        [.{t$_i$} \node [text width=1.8cm] (A) {A}; ]
-                        [.AP
+                        [.{t$_i$} \edge[draw=none]; \node [text width=1.8cm] (A) {A}; ]
+                        [.\node(ap){AP};
                         [.AI \node (b2) {$\emptyset$}; ]
                         ]
                     ]
@@ -747,6 +751,7 @@ grafted.\footnote{Not unexpectedly the same \gls{TFR} with a neuter noun is
     \end{scope}
 
     \draw (a) -- (A);
+    \draw (ap.north) -- (A.south);
     \node [draw, thick, fit = (b1) (b2), inner sep=0mm] (box) {};
 
     \end{tikzpicture}
