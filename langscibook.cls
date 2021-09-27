@@ -314,6 +314,18 @@
     \lsChapterPrefixString,
     footnotes=multiple
     ]{scrbook}
+    
+\ifbool{collection}
+  {% In collected volumes, write "Chapter n" instead of "n" in the header
+    \KOMAoptions{chapterprefix=true}
+  }
+  {
+    \ifbool{paper}
+      {% The same is applied to papers.
+        \KOMAoptions{chapterprefix=true}
+      }
+      {}
+  }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Packages
